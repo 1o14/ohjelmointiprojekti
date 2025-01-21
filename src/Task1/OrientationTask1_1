@@ -1,0 +1,16 @@
+Tehtävä 1: Simulaation käyttö ja kestävyysnäkökulma
+
+Simulaatiota voidaan käyttää monissa arkipäivän tilanteissa, joissa on monimutkaisia muuttujia ja niiden välinen vuorovaikutus.
+Esimerkkejä:
+- Liikenteen simulointi: Voidaan mallintaa, miten eri liikennevalojen ajoitus vaikuttaa liikenteen sujuvuuteen.
+- Supermarketin kassajärjestelmä: Voidaan simuloida kassojen määrän vaikutusta asiakasjonojen pituuteen.
+- Sairaalan toiminta: Simuloidaan, miten potilaiden määrä vaikuttaa hoitoaikoihin.
+
+Miksi simulaatio on parempi kuin todellinen kokeilu?
+- Kustannukset:   Simulaatiot ovat usein halvempia kuin todelliset kokeet.
+- Turvallisuus:   Simulaatioiden avulla voidaan testata tilanteita, jotka olisivat vaarallisia oikeassa maailmassa.
+- Toistettavuus:  Simulaatioissa voidaan toistaa samat olosuhteet useita kertoja.
+
+Kestävyysnäkökulma:
+Simulaatioita voidaan käyttää esimerkiksi energian kulutuksen optimointiin tai liikenteen päästöjen vähentämiseen.
+Näin voidaan suunnitella ympäristöystävällisempiä ratkaisuja ilman tarpeetonta resurssien kulutusta.

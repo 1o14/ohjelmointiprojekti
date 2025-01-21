@@ -1,0 +1,15 @@
+Tehtävä 2: Reaaliaikaisen järjestelmän analyysi
+
+Analysoidaan supermarketin toimintaa:
+
+1. Vaihtelu (variability):
+   - Asiakkaiden määrä vaihtelee päivän aikana.
+   - Ostoskorien sisältö ja ostosten käsittelyaika vaihtelevat.
+
+2. Monimutkaisuus (complexity):
+   - Useita kassoja, jotka kaikki palvelevat asiakkaita eri tahtiin.
+   - Tavaroiden varastojen hallinta on monimutkainen prosessi.
+
+3. Yhteenkytkeytyneisyys (interconnectedness):
+   - Kassajärjestelmä vaikuttaa asiakastyytyväisyyteen.
+   - Varaston täydennykset riippuvat myyntimääristä ja toimittajista.
