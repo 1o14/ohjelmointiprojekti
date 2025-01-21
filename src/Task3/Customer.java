@@ -63,4 +63,3 @@ public class Customer {
         System.out.println("Vietetty aika (nanosekuntia): " + customer1.calculateTimeSpent());
     }
 }
-
