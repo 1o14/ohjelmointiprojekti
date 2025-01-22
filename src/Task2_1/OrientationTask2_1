@@ -1,0 +1,13 @@
+Orientation Task 2: Simulation Events
+
+a) Miksi saapumistapahtuma tarvitsee luoda uuden saapumistapahtuman?
+
+- Saapumistapahtuma luo uuden saapumistapahtuman, koska simulaatio mallintaa
+useita saapumisia ajan kuluessa. Näin nähdään, kuinka monta asiakasta saapuu
+tietyn aikavälin aikana.
+
+
+b) Mikä tapahtuma tulisi luoda palvelun alussa?
+
+- Palvelun alussa tulisi luoda palvelun päättymistapahtuma. Tämä kertoo, milloin
+asiakas on valmis ja palvelu vapautuu seuraavalle.
