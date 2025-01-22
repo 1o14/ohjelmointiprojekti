@@ -1,6 +1,6 @@
-package Task4;
+package Task1_4;
 
-import Task3.Customer;
+import Task1_3.Customer;
 
 import java.util.LinkedList;
 import java.util.Scanner;
