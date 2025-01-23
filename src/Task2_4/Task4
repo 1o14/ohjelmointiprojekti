@@ -1,0 +1,53 @@
+Kolmivaiheinen Simulaatio Esimerkki: Puhelinkeskus
+
+Tässä tehtävässä simuloidaan puhelinkeskuksen toimintaa, kunnes asiakas Y poistuu järjestelmästä.
+Simulaatio alkaa kellonajassa 15, ja viimeinen kirjattu tapahtuma on B1.
+
+Alustava Tila (Kello 15):
+| Vaihe | Reititin Jonossa | Reititin | Oper 1 Jonossa | Oper 1 | Oper 2 Jonossa | Oper 2 |
+|-------|------------------|----------|-----------------|--------|-----------------|--------|
+| B     | X3               | Vapaa    | Tyhjä           | X2     | Tyhjä           | Y1     |
+| C     | Tyhjä            | X3       | Tyhjä           | X2     | Tyhjä           | Y1     |
+
+Tapahtumien Kulku:
+
+Kello 16 (Tapahtumat B4 ja B3):
+- B4: Reititin käsittelee X3 ja siirtää sen Oper 1:n jonoon.
+- B3: Oper 1 käsittelee X2, ja X2 poistuu järjestelmästä.
+
+| Vaihe | Reititin Jonossa | Reititin | Oper 1 Jonossa | Oper 1 | Oper 2 Jonossa | Oper 2 |
+|-------|------------------|----------|-----------------|--------|-----------------|--------|
+| B     | Tyhjä            | X3       | Tyhjä           | Vapaa  | Tyhjä           | Y1     |
+| C     | Tyhjä            | Vapaa    | X3              | Tyhjä  | Tyhjä           | Y1     |
+
+Kello 18 (Tapahtuma B5):
+- B5: Oper 2 aloittaa Y1 käsittelyn.
+
+| Vaihe | Reititin Jonossa | Reititin | Oper 1 Jonossa | Oper 1 | Oper 2 Jonossa | Oper 2 |
+|-------|------------------|----------|-----------------|--------|-----------------|--------|
+| B     | Tyhjä            | Vapaa    | X3              | Vapaa  | Tyhjä           | Y1     |
+| C     | Tyhjä            | Vapaa    | Tyhjä           | X3     | Tyhjä           | Y1     |
+
+Kello 20 (Tapahtumat B1 ja B2):
+- B1: Reititin menee vapaaksi.
+- B2: Oper 2 käsittelee Y1 loppuun, ja Y1 poistuu järjestelmästä. Simulaatio päättyy.
+
+| Vaihe | Reititin Jonossa | Reititin | Oper 1 Jonossa | Oper 1 | Oper 2 Jonossa | Oper 2 |
+|-------|------------------|----------|-----------------|--------|-----------------|--------|
+| B     | Tyhjä            | Vapaa    | Tyhjä           | X3     | Tyhjä           | Vapaa  |
+| C     | Tyhjä            | Vapaa    | Tyhjä           | X3     | Tyhjä           | Tyhjä  |
+
+Tapahtumaluettelo:
+| Tapahtuma | Aika |
+|-----------|------|
+| B4        | 16   |
+| B3        | 16   |
+| B5        | 18   |
+| B1        | 20   |
+| B2        | 20   |
+
+Tulokset:
+| Työn Valmistuminen | X | Y |
+|--------------------|---|---|
+|                    | 1 | 1 |
+
