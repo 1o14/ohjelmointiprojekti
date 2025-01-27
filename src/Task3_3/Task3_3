@@ -1,0 +1,12 @@
+Singleton-luokan ulkopuolella ei voi luoda oliota new-operaatiolla,
+koska luokan konstruktori on "private". Tämä tarkoittaa, että vain Singleton-luokan
+sisällä voidaan luoda olio.
+
+Sen sijaan Singleton-luokka tarjoaa getInstance()-metodin, jonka kautta saa
+ainoan olemassa olevan instanssin. Jos yritettäisiin käyttää new-operaatiota,
+ohjelma ei pystyisi siihen, koska yksityiseen konstruktoriin ei pääse käsiksi.
+
+Singleton on suunniteltu niin, että se varmistaa, että luokalla voi olla vain
+yksi olio. Tämä on tärkeää esimerkiksi silloin, kun tarvitaan yksi yhteinen
+resurssi, kuten kello simulaatiossa.
+

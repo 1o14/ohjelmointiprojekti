@@ -1,0 +1,25 @@
+Jotta voin generoida 1000 ikäarvoa, jotka vastaavat ryhmän ikäjakaumaa,
+käyttäisin seuraavaa lähestymistapaa:
+
+1. Määritä ikäjakauma:
+   Luodaan ikäjakauma, jossa kullekin iälle määritellään satunnaislukujen väli.
+   Esimerkiksi:
+   - 1–30: Ikä 20 (30 %)
+   - 31–70: Ikä 21 (40 %)
+   - 71–90: Ikä 22 (20 %)
+   - 91–100: Ikä 23 (10 %)
+
+2. Arvo satunnaislukuja:
+   Generoidaan satunnaislukuja välillä 1–100. Jokainen satunnaisluku kertoo,
+   mihin ikäryhmään se kuuluu.
+
+3. Määritä ikä satunnaisluvun perusteella:
+   Satunnaisluvun perusteella valitaan oikea ikä. Esimerkiksi:
+   - Jos satunnaisluku on välillä 1–30, ikä on 20.
+   - Jos satunnaisluku on välillä 31–70, ikä on 21.
+   - Jos satunnaisluku on välillä 71–90, ikä on 22.
+   - Jos satunnaisluku on välillä 91–100, ikä on 23.
+
+4. Tallenna ja tulosta tulokset:
+   Kerätään kaikki generoidut iät ja lasketaan niiden jakauma varmistaaksemme,
+   että ne vastaavat alkuperäistä jakaumaa.

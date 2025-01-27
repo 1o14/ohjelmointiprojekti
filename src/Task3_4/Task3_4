@@ -1,0 +1,26 @@
+Tutustuin muutamiin jakaumiin, joita voidaan käyttää simulaattorissa:
+
+- Normaalijakauma:
+
+Missä käytetään: Normaalijakauma sopii tilanteisiin, joissa suurin osa arvoista
+keskittyy keskiarvon ympärille ja poikkeamia on vähemmän.
+Esimerkki tosielämästä: Ihmisten pituudet noudattavat yleensä normaalijakaumaa,
+koska suurin osa ihmisistä on keskimittaisia, kun taas lyhyitä tai pitkiä ihmisiä on vähemmän.
+
+- Uniform-jakauma:
+
+Missä käytetään: Uniform-jakaumaa käytetään, kun kaikilla arvoilla on yhtä suuri
+todennäköisyys.
+Esimerkki tosielämästä: Nopanheitto, jossa jokaisen silmäluvun (1–6) esiintyminen
+on yhtä todennäköistä.
+
+- Eksponenttijakauma:
+
+Missä käytetään: Eksponenttijakaumaa käytetään tilanteissa, joissa halutaan mallintaa tapahtumien välistä aikaa, kuten
+kuinka usein jokin tapahtuma tapahtuu.
+Esimerkki tosielämästä: Asiakkaiden saapumisvälit ravintolaan tai puhelukeskukseen noudattavat usein eksponenttijakaumaa.
+
+- Binomijakauma:
+
+Missä käytetään: Binomijakaumaa käytetään tilanteissa, joissa tulos on joko onnistuminen tai epäonnistuminen.
+Esimerkki tosielämästä: Kolikonheitto, jossa tulos on joko klaava tai kruuna.
