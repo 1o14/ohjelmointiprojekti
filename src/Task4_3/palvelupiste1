@@ -1,0 +1,17 @@
+Kahden erilaisen palvelujärjestelmän suunnittelu (3–4 palvelupistettä)
+1. Terveyskeskusmalli
+
+**Esimerkki:** Asiakas saapuu terveyskeskukseen, ilmoittautuu, odottaa lääkärin vastaanotolle ja
+mahdollisesti laboratoriotutkimuksiin.
+
+**Palvelupisteet:**
+1. Ilmoittautuminen → Asiakas rekisteröityy ja saa ajanvarausnumeron.
+2. Lääkärin vastaanotto → Asiakas käy lääkärissä.
+3. Laboratorio (tarvittaessa) → Asiakas siirtyy verikokeisiin tai muihin tutkimuksiin.
+
+**Miten asiakkaat liikkuvat?**
+- Jokainen asiakas käy läpi 1 ja 2, mutta 3 on valinnainen.
+- Jonotus tapahtuu ilmoittautumisessa, lääkärissä ja laboratoriossa.
+
+**Graafinen esitys (tekstimalli):**
+[Ilmoittautuminen] → [Lääkärin vastaanotto] → [Laboratorio] (tarvittaessa)

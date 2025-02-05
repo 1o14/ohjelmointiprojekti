@@ -1,0 +1,36 @@
+   Simulaattorin vaihekoodaus
+
+   Simulaattorin koodi jaetaan kolmeen vaiheeseen:
+   1. A-vaihe (A-phase coding) → Tapahtumien lisääminen simulaatioon.
+   2. B-vaihe (B-events coding) → Tapahtumien käsittely.
+   3. C-vaihe (C-events coding) → Tilastojen päivittäminen.
+
+   a) Mitä A-vaihe (A-phase coding) tarkoittaa?
+   - Asettaa simulaation alkuun tarvittavat tapahtumat.
+   - Luo tapahtumalistan, josta simulaatio etenee.
+
+   **Esimerkki pseudokoodina**
+   ALOITA SIMULAATIO
+   ALUSTA tapahtumalista
+   LISÄÄ ensimmäiset tapahtumat (esim. asiakkaan saapuminen)
+
+
+   b) Mitä B-vaihe (B-events coding) tarkoittaa?
+   - Hoitaa tapahtumat, kuten asiakkaan saapumisen tai palvelun aloituksen.
+   - Poistaa suoritetun tapahtuman ja lisää uudet tarvittavat tapahtumat.
+
+   **Esimerkki pseudokoodina**
+   KUNNES tapahtumalista on tyhjä:
+   1. VALITSE seuraava tapahtuma
+   2. SUORITA tapahtuman mukainen toiminto
+   3. LISÄÄ uudet tapahtumat (esim. palvelun aloitus seuraavalle asiakkaalle)
+
+
+   c) Mitä C-vaihe (C-events coding) tarkoittaa?
+   - Päivittää tilastot, kuten asiakasmäärät ja jonot.
+   - Kerää tietoa simulaation lopussa analyysiä varten.
+
+   **Esimerkki pseudokoodina**
+   LOPETA SIMULAATIO
+   PÄIVITÄ tilastot (esim. jonon keskipituus, palveluajat)
+   TULOSTA simulaation lopputulokset

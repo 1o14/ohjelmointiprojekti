@@ -1,0 +1,18 @@
+Kahden erilaisen palvelujärjestelmän suunnittelu (3–4 palvelupistettä)
+2. Pikaruokaravintolamalli
+
+**Esimerkki:** Asiakas käy pikaruokaravintolassa tilaamassa ruokaa, odottaa valmistumista ja
+syö paikan päällä tai ottaa mukaan.
+
+**Palvelupisteet:**
+1. Kassa → Asiakas tekee tilauksen.
+2. Keittiö → Ruoka valmistetaan.
+3. Noutopiste → Asiakas hakee valmiin ruoan.
+4. Ruokailualue (valinnainen) → Asiakas syö paikan päällä tai ottaa ruoan mukaan.
+
+**Miten asiakkaat liikkuvat?**
+- Kaikki käyvät läpi 1, 2 ja 3, mutta 4 on valinnainen.
+- Jonotus tapahtuu kassalla ja noutopisteellä.
+
+**Graafinen esitys (tekstimalli):**
+[Kassa] → [Keittiö] → [Noutopiste] → [Ruokailualue] (valinnainen)

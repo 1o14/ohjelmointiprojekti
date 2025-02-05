@@ -1,0 +1,21 @@
+Simulaattorin pääsilmukka (pseudokoodi)
+
+Algoritmin tehtävä on hallita kolmen vaiheen simulaatiota:
+1. Ajan eteneminen → Siirrytään seuraavaan tapahtumaan.
+2. Tapahtumien käsittely → Asiakkaiden saapumiset, palvelutapahtumat, poistumiset.
+3. Tilastojen päivitys → Päivitetään jonon pituus, palveluajat ja muut mittarit.
+
+ALOITA SIMULAATIO  
+    ALUSTA tapahtumalista  
+    ASETA nykyinen_aika = 0  
+
+    KUNNES simulaatio päättyy:  
+        1. VALITSE seuraava tapahtuma tapahtumalistasta  
+        2. PÄIVITÄ nykyinen_aika tapahtuman ajaksi  
+        3. SUORITA tapahtuman mukainen toiminto:  
+            - Asiakkaan saapuminen  
+            - Asiakkaan palvelun aloitus/lopetus  
+            - Muu simulaatioon liittyvä tapahtuma  
+        4. PÄIVITÄ tilastot (esim. jonon pituus, käsitellyt asiakkaat)  
+
+LOPETA SIMULAATIO  

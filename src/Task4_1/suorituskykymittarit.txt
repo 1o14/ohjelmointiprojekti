@@ -1,0 +1,26 @@
+Suorituskykymittarit terveyskeskuksessa
+
+Tarkastellaan terveyskeskusta, jossa asiakkaat saapuvat, odottavat ja saavat palvelua. Suorituskykymittarit auttavat
+arvioimaan, kuinka hyvin palvelu toimii ja missä voi olla ruuhkia.
+
+Havainnoitavat muuttujat:
+- A (saapuneet asiakkaat) → Kuinka monta asiakasta tulee terveyskeskukseen.
+- C (palvellut asiakkaat) → Kuinka moni saa palvelun.
+- B (palveluaika) → Kuinka kauan lääkäri/hoitaja on varattuna.
+- T (kokonaisaika) → Kuinka pitkän ajan aikana mittaus tehdään (esim. päivä).
+
+Johdetut mittarit:
+- U (kapasiteetin käyttöaste) = B/T → Kuinka täysillä palvelupiste on käytössä. Jos 100 %, resurssit loppuvat.
+- X (palveluteho) = C/T → Montako asiakasta hoidetaan tietyssä ajassa.
+- S (keskimääräinen palveluaika) = B/C → Kuinka kauan yhden asiakkaan palvelu kestää.
+
+Jonotukseen liittyvät mittarit
+- R𝑖 (yksittäisen asiakkaan kokonaisaika) → Kauanko yhdellä asiakkaalla kestää terveyskeskuksessa.
+- W (odotusajat yhteensä) → Kaikkien asiakkaiden yhteenlasketut odotusajat.
+- R (keskimääräinen läpimenoaika) = W/C → Kuinka kauan asiakas keskimäärin viettää aikaa terveyskeskuksessa.
+- N (keskimääräinen jonon pituus) = W/T → Kuinka monta asiakasta on keskimäärin jonossa.
+
+Mitä nämä kertovat?
+Jos käyttöaste (U) on korkea ja odotusajat (W) pitkiä, palvelussa voi olla ruuhkaa. Jos palveluteho (X) on matala, ei
+ehditä palvella tarpeeksi asiakkaita. Tavoitteena on hyvä tasapaino, jotta asiakaspalvelu toimii sujuvasti.
+

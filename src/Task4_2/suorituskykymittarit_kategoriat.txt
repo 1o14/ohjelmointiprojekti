@@ -1,0 +1,24 @@
+Suorituskykymittarit: Miten ne päivitetään ja lasketaan?
+
+Suorituskykymittarit jakautuvat kahteen ryhmään:
+
+1. **Palvelupisteen mittarit** → Kuvaa, miten hyvin palvelu toimii.
+   - **Saapuneet asiakkaat (A)** → Kasvaa, kun asiakas saapuu.
+   - **Palvellut asiakkaat (C)** → Kasvaa, kun asiakas saa palvelua.
+   - **Käyttöaste (U = B/T)** → Kuinka paljon palvelua käytetään.
+   - **Palveluteho (X = C/T)** → Kuinka monta asiakasta hoidetaan tietyssä ajassa.
+
+   **Päivitetään asiakkaan saapuessa/lähtiessä, lasketaan lopuksi.**
+
+2. **Asiakasmittarit** → Kuvaa asiakkaan kokemusta.
+   - **Jonotusaika (W)** → Kuinka kauan asiakas odottaa.
+   - **Kokonaisaika (R𝑖)** → Kokonaiskäyntiaika.
+   - **Keskimääräinen odotusaika (R = W/C)** → Kuinka kauan asiakkaat yleensä odottavat.
+
+   **Päivitetään asiakkaan edetessä, lasketaan lopuksi.**
+
+Palvelupisteen mittarit kuvaavat tehokkuutta.
+Asiakasmittarit kuvaavat jonotusta ja asiakaskokemusta.
+Päivitetään reaaliajassa ja lasketaan lopuksi analysointia varten.
+
+
